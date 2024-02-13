@@ -1,0 +1,38 @@
+.products{
+    position: relative;
+    color: white;
+    margin-top: 10vh;
+    margin-bottom: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width:100vw;
+    
+}
+
+
+.productList{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+   
+}
+
+.productEl{
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 3vw;
+    border-bottom: 0.5vw dotted rgb(34,112,184);
+    display: flex;
+    justify-content: flex-end;
+}
+.productEl h2{
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    cursor: default;
+}
