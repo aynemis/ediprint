@@ -15,7 +15,7 @@ export default function Index() {
        de la conception initiale à la livraison finale, pour garantir que chaque produit soit parfaitement adapté à vos besoins.
 </p>
         <p>
-          <Link href="/contact" className='underline hover:text-[rgb(204,233,250)] underline-offset-4'>Contactez-nous</Link> dès aujourd'hui pour discuter de vos projets. 
+          <Link href="/contact" className='underline hover:text-[rgb(204,233,250)] underline'>Contactez-nous</Link> dès aujourd'hui pour discuter de vos projets. 
           Laissez-nous transformer vos idées en réalité !
         </p>
     </div>

@@ -8,13 +8,6 @@ import Product from '../../components/Product';
 
 export default function Home() {
 
-  // useEffect( () => {
-  //   (
-  //     async () => {
-  //         const locomotiveScroll = new LocomotiveScroll();
-  //     }
-  //   )()
-  // }, [])
 
   useEffect(() => {
     import("locomotive-scroll").then((locomotiveModule) => {
