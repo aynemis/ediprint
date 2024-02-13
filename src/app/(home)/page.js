@@ -5,6 +5,7 @@ import Description from '../../components/Description';
 import Product from '../../components/Product';
 
 
+
 export default function Home() {
 
   // useEffect( () => {
@@ -20,6 +21,9 @@ export default function Home() {
      const locomotiveScroll = new locomotiveModule.default();
     })
   }, [])
+
+
+
 
   return (
       <main >
