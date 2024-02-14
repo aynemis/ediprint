@@ -22,7 +22,7 @@ export default function Index() {
             <svg onClick={() => setShowSidebar(!showSidebar)} 
             xmlns="http://www.w3.org/2000/svg" 
             viewBox="0 0 24 24"  
-            className="fixed w-10 h-10 z-30 flex items-center cursor-pointer right-10 top-6 mt-5 stroke-white stroke-4">
+            className="fixed w-10 h-10 z-30 flex items-center cursor-pointer right-10 top-6 stroke-white stroke-4">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
         )}
