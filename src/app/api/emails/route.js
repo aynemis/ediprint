@@ -5,7 +5,7 @@ import 'dotenv/config'
 export async function POST(request) {
 
     const password = process.env.ZOHO_PASS;  
-      
+
     try {
         const { name, email, subject, message } = await request.json();
 
@@ -22,7 +22,7 @@ export async function POST(request) {
 
         const mailOptions = {
             from: 'mansoor@ediprint.re',
-            to: 'yasmine.pvt@gmail.com',
+            to: 'edprint@wanadoo.fr',
             subject: "Nouveau message sur le site",
             html: `
         <h3>Vous avez reçu un nouveau message depuis le site Ediprint :</h3>
