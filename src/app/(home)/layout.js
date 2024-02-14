@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <head>
-        <link rel='icon' href='/favicon.ico'/>
+        <link rel='icon' href='/icon.png'/>
       </head>
       <body className={inter.className}>
         <Sidemenu/>
