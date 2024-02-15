@@ -40,7 +40,7 @@ export default function ProductsIntro() {
           </h3>
           </Link>
 
-          <Link href="/contact">
+          <Link href="/products">
           <h3 style={{ color:"#050219"}} className="mt-20 text-4xl cursor-pointer font-semibold text-white">
             Produits & Services
           </h3>
