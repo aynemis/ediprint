@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Index() {
     return (
-    <div className="h-screen h-full py-6 sm:py-8 lg:py-12">    
+    <div className="h-screen h-full py-6 sm:py-8 lg:py-12 lg:px-12">    
         <div className="mx-auto max-w-screen-2xl py-6  lg:py-12 px-4 md:px-8">
             <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
                 <div className="flex items-center gap-12">
@@ -31,7 +31,7 @@ export default function Index() {
                         className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                     </div>
     
-                    <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Papeterie</span>
+                    <span className="absolute ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Papeterie</span>
                 </Link>
                
     
