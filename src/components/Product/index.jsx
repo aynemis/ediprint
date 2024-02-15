@@ -30,7 +30,7 @@ export default function Index() {
              
             <div style={{ width: '500px', height: '500px' }}>
                 <Image 
-                    src={`/images/${products[selectedProduct].src}`}
+                    src={`/images/homepage/${products[selectedProduct].src}`}
                     width={0}
                     height={0}
                     sizes="100vw"

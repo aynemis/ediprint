@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-export default function Index() {
+export default function ProductsIntro() {
 
     const [showSidebar, setShowSidebar] = useState(false);
 
@@ -40,9 +40,11 @@ export default function Index() {
           </h3>
           </Link>
 
+          <Link href="/contact">
           <h3 style={{ color:"#050219"}} className="mt-20 text-4xl cursor-pointer font-semibold text-white">
             Produits & Services
           </h3>
+          </Link>
         </div>
       </>
         )
