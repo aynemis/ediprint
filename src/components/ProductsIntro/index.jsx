@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 export default function Index() {
     return (
-    <div className="mx-auto max-w-screen-2xl py-6  lg:py-12 px-4 md:px-8">
+    <div className="h-screen h-full py-6 sm:py-8 lg:py-12">    
+        <div className="mx-auto max-w-screen-2xl py-6  lg:py-12 px-4 md:px-8">
             <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
                 <div className="flex items-center gap-12">
                     <h2 className="text-2xl font-bold lg:text-3xl text-white">Nos Produits</h2>
@@ -71,7 +72,7 @@ export default function Index() {
                 </Link>
                 
             </div>
-        
+        </div>
     </div>
     )
 }
