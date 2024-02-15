@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Index() {
     return (
-    <div className='py-6 sm:py-8 lg:py-12 lg:px-12 w-full md:w-1/3'>
+    <div className='py-6 sm:py-8 lg:py-12 lg:px-12 w-full md:w-2/3'>
     <div  className="bg-gray-800 mb-12 rounded-lg px-12 py-6 lg:py-12 text-white">
         <div id="papeterie">
             <h2 className='text-xl font-bold lg:text-2xl mb-4'>Papeterie</h2>
