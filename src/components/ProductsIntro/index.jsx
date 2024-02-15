@@ -10,7 +10,7 @@ export default function Index() {
                     <h2 className="text-2xl font-bold lg:text-3xl text-white">Nos Produits</h2>
     
                     <p className="hidden max-w-screen-sm text-gray-300 md:block">
-                        Nous proposons une grande variété de produits et de services pour tous vos besoins.
+                        Nous proposons une grande gamme de produits et de services pour tous vos besoins.
                         Découvrez nos réalisations et contactez-nous pour plus d'informations. 
                     </p>
                 </div>
@@ -23,9 +23,9 @@ export default function Index() {
     
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
                 
-                <Link href="#"
+                <Link href="#first-section"
                     className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                    <img src="/images/papeterie/papeterie.jpg" />
+                    <img src="/images/papeterie/papeterie.jpg" loading="lazy" alt="Photo de papiers" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"/>
     
                     <div
                         className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -36,9 +36,9 @@ export default function Index() {
                
     
                
-                <Link href="#"
+                <Link href="#second-section"
                     className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                    <img src="/images/plv/plv.jpg" loading="lazy" alt="Photo by Magicle" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                    <img src="/images/plv/plv.jpg" loading="lazy" alt="PLV" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
     
                     <div
                         className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -49,7 +49,7 @@ export default function Index() {
                
                 <Link href="#"
                     className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                    <img src="/images/packaging/boites.jpg" loading="lazy" alt="Photo by Martin Sanchez" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                    <img src="/images/packaging/boites.jpg" loading="lazy" alt="Photo de boites" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
     
                     <div
                         className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
@@ -62,7 +62,7 @@ export default function Index() {
                 
                 <Link href="#"
                     className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                    <img src="/images/goodies/goodies.jpg" loading="lazy" alt="Photo by Lorenzo Herrera" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                    <img src="/images/goodies/goodies.jpg" loading="lazy" alt="Photo de goodies" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
     
                     <div
                         className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
