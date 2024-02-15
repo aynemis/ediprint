@@ -23,7 +23,7 @@ export default function Index() {
     
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
                 
-                <Link href="#first-section"
+                <Link href="#papeterie"
                     className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                     <img src="/images/papeterie/papeterie.jpg" loading="lazy" alt="Photo de papiers" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"/>
     
@@ -36,7 +36,7 @@ export default function Index() {
                
     
                
-                <Link href="#second-section"
+                <Link href="#pub"
                     className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
                     <img src="/images/plv/plv.jpg" loading="lazy" alt="PLV" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
     
@@ -47,7 +47,7 @@ export default function Index() {
                     <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Publicité (PLV)</span>
                 </Link>
                
-                <Link href="#"
+                <Link href="#packaging"
                     className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
                     <img src="/images/packaging/boites.jpg" loading="lazy" alt="Photo de boites" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
     
@@ -60,7 +60,7 @@ export default function Index() {
                
     
                 
-                <Link href="#"
+                <Link href="#goodies"
                     className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                     <img src="/images/goodies/goodies.jpg" loading="lazy" alt="Photo de goodies" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
     
