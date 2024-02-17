@@ -2,7 +2,7 @@
 import Contact from '../../components/ContactForm';
 
 
-export default function Home() {
+export default function ContactPage() {
 
 
   return (

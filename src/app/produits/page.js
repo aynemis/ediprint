@@ -2,7 +2,7 @@
 import ProductsIntro from '../../components/ProductsIntro';
 
 
-export default function Home() {
+export default function Produits() {
 
 
   return (

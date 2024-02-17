@@ -41,8 +41,8 @@ export default function Contact() {
     </div>
     <div className='container  px-12 '>
         <div className="block rounded-lg bg-[rgba(204,233,250)] opacity-95 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] md:py-10 md:px-12 -mt-[80px] backdrop-blur-[30px]">
-        <div class="my-auto grid items-center md:grid-cols-3 lg:grid-cols-3">
-          <div class="mx-auto mb-12 md:mb-0 mt-12 md:mt-0 text-center lg:mb-0">
+        <div className="my-auto grid items-center md:grid-cols-3 lg:grid-cols-3">
+          <div className="mx-auto mb-12 md:mb-0 mt-12 md:mt-0 text-center lg:mb-0">
             <svg xmlns="http://www.w3.org/2000/svg" 
                 fill="none" 
                 viewBox="0 0 24 24" 
@@ -52,10 +52,10 @@ export default function Contact() {
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
             </svg>
-            <h6 class="font-medium">La Réunion</h6>
+            <h6 className="font-medium">La Réunion</h6>
           </div>
           
-          <div class="mx-auto mb-12 md:mb-0 text-center lg:mb-0">
+          <div className="mx-auto mb-12 md:mb-0 text-center lg:mb-0">
             <svg xmlns="http://www.w3.org/2000/svg" 
             fill="none" 
             viewBox="0 0 24 24" 
@@ -64,10 +64,10 @@ export default function Contact() {
             className="mx-auto mb-6 h-8 w-8 text-primary dark:text-primary-400">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
             </svg>
-            <h6 class="font-medium">06 92 49 34 19</h6>
+            <h6 className="font-medium">06 92 49 34 19</h6>
           </div>
 
-          <div class="mx-auto mb-12 md:mb-0 text-center">
+          <div className="mx-auto mb-12 md:mb-0 text-center">
             <svg xmlns="http://www.w3.org/2000/svg" 
             fill="none" viewBox="0 0 24 24" 
             stroke-width="1.5" 
@@ -76,7 +76,7 @@ export default function Contact() {
                 <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25" />
             </svg>
 
-            <h6 class="font-medium">mansoor@ediprint.re</h6>
+            <h6 className="font-medium">mansoor@ediprint.re</h6>
           </div>
         </div>
         </div>

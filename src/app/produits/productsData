@@ -1,0 +1,7 @@
+const productsData = [
+      { type: 'Papeterie', name: 'Agenda', src: 9.2 , desc: ''},
+      { type: 'Papeterie', name: 'Classeur', src: 9.2 , desc: ''},
+      { type: 'Packaging', name: 'Sac en papier', src: 9.2 , desc: ''},
+    ];
+
+export default productsData;

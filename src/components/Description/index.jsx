@@ -28,7 +28,7 @@ export default function Index() {
               type="button"
               data-te-ripple-init
               data-te-ripple-color="light"
-              class="inline-block ml-4 rounded-full bg-[#2270b8] p-1 md:p-2 uppercase leading-normal text-white shadow-[_9px_9px_-9px_#CCE9FA] transition duration-150 ease-in-out 
+              className="inline-block ml-4 rounded-full bg-[#2270b8] p-1 md:p-2 uppercase leading-normal text-white shadow-[_9px_9px_-9px_#CCE9FA] transition duration-150 ease-in-out 
               hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] 
               ">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 md:w-6 md:h-6">
