@@ -1,7 +1,20 @@
 const productsData = [
       { type: 'Papeterie', name: 'Agenda', src: 9.2 , desc: ''},
+      { type: 'Papeterie', name: 'Bloc-note', src: 9.2 , desc: ''},
+      { type: 'Papeterie', name: 'Carte de visite', src: 9.2 , desc: ''},
+      { type: 'Papeterie', name: 'Chemise', src: 9.2 , desc: ''},
       { type: 'Papeterie', name: 'Classeur', src: 9.2 , desc: ''},
+      { type: 'Papeterie', name: 'Etiquette', src: 9.2 , desc: ''},
+      { type: 'Packaging', name: 'Boîte à bijoux', src: 9.2 , desc: ''},
+      { type: 'Packaging', name: 'Boîte à gateau', src: 9.2 , desc: ''},
       { type: 'Packaging', name: 'Sac en papier', src: 9.2 , desc: ''},
+      { type: 'Packaging', name: 'Sac en tissu', src: 9.2 , desc: ''},
+      { type: 'PLV', name: 'Kakemono', src: 9.2 , desc: ''},
+      { type: 'PLV', name: 'Présentoir', src: 9.2 , desc: ''},
+      { type: 'Goodies', name: 'Gourde', src: 9.2 , desc: ''},
+      { type: 'Goodies', name: 'Parapluie', src: 9.2 , desc: ''},
+      { type: 'Goodies', name: 'Porte-clés', src: 9.2 , desc: ''},
+      { type: 'Goodies', name: 'Stylo', src: 9.2 , desc: ''},
     ];
 
 export default productsData;
